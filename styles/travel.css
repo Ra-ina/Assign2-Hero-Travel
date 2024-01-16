@@ -331,10 +331,11 @@ hr {
 }
 
 .footer-title {
-    padding-left:500px;
-    padding-right:500px;
     display: flex;
+   text-align: center;
+    padding: auto;
     align-items: center;
+    justify-content: space-between;
     color: #131318;
     font-size: 36px;
     font-weight: 800;
