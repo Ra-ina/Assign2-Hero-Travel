@@ -165,8 +165,6 @@ nav li a {
 
 /* destination section styles */
 
-.destination {}
-
 .destination-title {
     color: #131318;
     text-align: center;
@@ -333,8 +331,8 @@ hr {
 }
 
 .footer-title {
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left:500px;
+    padding-right:500px;
     display: flex;
     align-items: center;
     color: #131318;
