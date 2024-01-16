@@ -138,7 +138,8 @@ nav li a {
     width: 36.45vw;
 }
 
-.popular-tours-para, .popular-tours-list{
+.popular-tours-para,
+.popular-tours-list {
     width: 36.45vw;
 
 }
@@ -308,27 +309,31 @@ hr {
     font-size: 20px;
     font-weight: 800;
 }
-.newsletter-pic{
+
+.newsletter-pic {
     width: 672px;
-height: 422px;
-margin-left: 4px;
+    height: 422px;
+    margin-left: 4px;
 }
+
 /* footer styles */
-.footer{
+.footer {
     background: rgba(19, 19, 24, 0.05);
     width: 100%;
-height: 502px;
+    height: 502px;
 }
+
 /* .footer-image{
     margin-right: 6px;
 } */
-.footer hr{
+.footer hr {
     width: 872px;
-height: 1px;
-background: rgba(19, 19, 24, 0.10);
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
 }
-.footer-title{
-    padding-left:  500px;
+
+.footer-title {
+    padding-left: 500px;
     padding-right: 500px;
     display: flex;
     align-items: center;
@@ -336,21 +341,24 @@ background: rgba(19, 19, 24, 0.10);
     font-size: 36px;
     font-weight: 800;
 }
-.footer-description{
+
+.footer-description {
     color: #5A5A5D;
-text-align: center;
-width: 769px;
-font-size: 16px;
-font-weight: 400;
-line-height: 162.5%;
+    text-align: center;
+    width: 769px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 162.5%;
 }
-.footer-description2{
+
+.footer-description2 {
     color: #131318;
-font-size: 16px;
-font-weight: 300;
-text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
 }
-.footer-icons{
+
+.footer-icons {
     display: flex;
 }
 
@@ -361,9 +369,12 @@ text-align: center;
 
     nav {
         flex-direction: column;
+
     }
-    nav ul>li{
+
+    nav ul>li {
         flex-direction: row;
+        display: none;
     }
 
     .banner {
@@ -394,13 +405,16 @@ text-align: center;
         flex-direction: column;
         align-items: flex-start;
     }
-.banner-search-bar{
-    gap: 0px;
-}
-.banner-button{
-    width: 255px;
-height: 52px;
-}
+
+    .banner-search-bar {
+        gap: 0px;
+    }
+
+    .banner-button {
+        width: 255px;
+        height: 52px;
+    }
+
     .banner-search-bar>.banner-search-fields {
         width: 255px;
         margin-top: 0px;
@@ -418,76 +432,96 @@ height: 52px;
         font-size: 20px;
         width: 178px;
     }
-.popular-tours-para{
-    width: 335px;
-    height: 75px;
-}
+
+    .popular-tours-para {
+        width: 335px;
+        height: 75px;
+    }
+
     .popular-tours-list {
         font-size: 14px;
         margin: 0;
         width: 335px;
     }
-.popular-tours-button{
-    width: 255px;
-height: 52px;
-margin-top: 50px;
 
-}
+    .popular-tours-button {
+        width: 255px;
+        height: 52px;
+        margin-top: 50px;
+
+    }
+
     .popular-tours-image {
         width: 89.33vw;
     }
 
-.destination-title{
-    font-size: 20px;
-}
-.destination-para{
-    font-size: 14px;
-    width: 309px;
-}
-.destination-images .row1 .row2 .row3{
-    /* width: 335px; */
-    height: 176px;
-    flex-direction: column;
-}
-.why-us-title{
-    font-size: 20px;
-}
-.card-container{
-    display: grid;
-grid-template-columns: repeat(1,1fr);
-}
-.card1, .card2, .card3{
-    width: 335px;
-height: 289px;
-margin-bottom: 5px;
-}
-.newsletter-and-pic{
-    flex-direction: column;
-}
-.newsletter{
-    width: 335px;
-height: 450px;
-}
-.newsletter>hr{
-    width: 288px;
-height: 1px;
-}
-.newsletter-input, .newsletter-button{
-    width: 288px;
-    height: 52px;
-}
-.newsletter-pic{
-    width: 335px;
-    height: 300px;
-}
-.footer-title{
-    padding: 0px;
-}
-.footer-description{
-    width: 287px;
-}
-.footer>hr{
-    width: 335px;
-height: 1px;
-}
+    .destination-title {
+        font-size: 20px;
+    }
+
+    .destination-para {
+        font-size: 14px;
+        width: 309px;
+    }
+
+    .destination-images .row1 .row2 .row3 {
+        /* width: 335px; */
+        height: 176px;
+        flex-direction: column;
+    }
+
+    .why-us-title {
+        font-size: 20px;
+    }
+
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 335px;
+        height: 289px;
+        margin-bottom: 5px;
+    }
+
+    .newsletter-and-pic {
+        flex-direction: column;
+    }
+
+    .newsletter {
+        width: 335px;
+        height: 450px;
+    }
+
+    .newsletter>hr {
+        width: 288px;
+        height: 1px;
+    }
+
+    .newsletter-input,
+    .newsletter-button {
+        width: 288px;
+        height: 52px;
+    }
+
+    .newsletter-pic {
+        width: 335px;
+        height: 300px;
+    }
+
+    .footer-title {
+        padding: 0px;
+    }
+
+    .footer-description {
+        width: 287px;
+    }
+
+    .footer>hr {
+        width: 335px;
+        height: 1px;
+    }
 }
